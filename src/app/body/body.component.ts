@@ -6,6 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./body.component.scss']
 })
 export class BodyComponent {
-  @Input() jobSkill: any;
+  @Input() AE: any;
+  @Input() GF: any;
 
 }
