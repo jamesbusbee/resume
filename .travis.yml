@@ -1,0 +1,10 @@
+language: node_js
+
+install: skip
+script: skip
+
+deploy:
+  provider: azure_web_apps
+  username: AZURE_WA_USERNAME
+  password: AZURE_WA_PASSWORD
+  site: AZURE_WA_SITE
