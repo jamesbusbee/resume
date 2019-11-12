@@ -7,24 +7,20 @@ import { Component} from '@angular/core';
 })
 export class AppComponent {
   title = 'resume';
-  jobs = {
-    AmericanEagle:
-      [
+  jobs = [
         {
           title: 'Systems Engineer Internship',
           company: 'American Eagle',
           date: 'June 2019-August2019'
         }
-        ],
-    GoodFellas:
-    [
+        ,
+
       {
         title: 'Food Prep Chef/Dishwasher',
         company: 'Goodfellas Drafthouse',
         date: 'May 2016-August 2018'
       }
-    ]
-  };
+  ];
   skills = {
     webDev:
     [
@@ -33,7 +29,8 @@ export class AppComponent {
         2: 'Angular',
         3: 'Bootstrap',
         4: 'PHP',
-        5: 'EC6 Javascript'
+        5: 'EC6 Javascript',
+        6: 'Travis CI'
       }
     ],
     database:

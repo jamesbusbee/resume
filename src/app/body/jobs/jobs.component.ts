@@ -7,7 +7,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class JobsComponent implements OnInit {
   @Input() AE;
-  @Input() GF;
   constructor() { }
 
   ngOnInit() {

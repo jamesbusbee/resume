@@ -1,6 +1,13 @@
 <div class="jobSection">
-  <h2>Recent Jobs</h2>
-  <dl id="jobs">
-    <app-jobs [AE]="AE"></app-jobs>
+  <div class="jobChild">
+  <h2>Recent <span id="wordJobs"> Jobs</span></h2>
+  <dl id="jobs" *ngFor="let job of jobs">
+    <app-jobs [AE]="job"></app-jobs>
   </dl>
+  </div>
+</div>
+
+<div class="skillSection">
+  <h2>Tech <span id="wordSkills">Skills</span></h2>
+
 </div>
