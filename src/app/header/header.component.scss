@@ -1,13 +1,30 @@
 .header
 {
-  text-align: center;
+  padding-left: 20px;
+  display: inline-block;
 }
 #selfie
 {
+  float: left;
+}
+#lastName
+{
+  color: lightskyblue;
+}
+#info
+{
   float: right;
+  position: relative;
+  padding-top: 50px;
+  display: inline-block;
+}
+h1
+{
+  color: darkgray;
+  font-size: 40px;
 }
 hr
 {
   border: 2px solid skyblue;
-  width: 75%;
+  width: 90%;
 }

@@ -1,23 +1,77 @@
+.upperSection
+{
+  padding-left: 150px;
+  height: 200px;
+}
 .jobSection
 {
   float: left;
   padding-left: 25px;
   padding-right: 25px;
 }
-.jobChild
+.skillSection
 {
-
+  position: relative;
+  float: left;
+  padding-left: 120px;
 }
 #wordJobs
 {
   color: lightskyblue;
 }
-.skillSection
+.skillSection2
 {
+  position: relative;
   float: left;
-  padding-left: 150px;
+  padding-top: 50px;
 }
 #wordSkills
 {
   color: lightskyblue;
+}
+.internship
+{
+  position: relative;
+  text-align: left;
+}
+#internshipTitle
+{
+  padding-left: 15px;
+  color: darkgray;
+}
+#wordInternship
+{
+  color: lightskyblue;
+}
+#referenceTitle
+{
+  padding-left: 15px;
+}
+#title, #title2
+{
+  color: darkgray;
+}
+#americanEagle
+{
+  color: lightskyblue;
+}
+#wordReferences
+{
+  color: darkgray;
+}
+.references
+{
+  padding-left: 20px;
+  margin-bottom: 5em;
+}
+ul
+{
+  list-style: square;
+  font-size: 14px;
+  margin-bottom: 2em;
+}
+hr
+{
+  border: 2px solid skyblue;
+  width: 85%;
 }

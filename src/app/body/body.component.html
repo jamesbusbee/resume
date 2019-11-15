@@ -1,13 +1,50 @@
-<div class="jobSection">
-  <div class="jobChild">
-  <h2>Recent <span id="wordJobs"> Jobs</span></h2>
-  <dl id="jobs" *ngFor="let job of jobs">
-    <app-jobs [AE]="job"></app-jobs>
-  </dl>
+<div class="body">
+  <div class="upperSection">
+    <div class="jobSection">
+        <h2><span id="title">Recent <span id="wordJobs"> Jobs</span></span></h2>
+      <dl id="jobs" *ngFor="let job of jobs">
+        <app-jobs [AE]="job"></app-jobs>
+      </dl>
+    </div>
+
+    <div class="skillSection">
+      <h2><span id="title2">Technology <span id="wordSkills">Skills</span></span></h2>
+      <dl id="skills" *ngFor="let skill of skills">
+        <app-skills [SK]="skill"></app-skills>
+      </dl>
+    </div>
+
+    <div class="skillSection2">
+      <dl id="skills2" *ngFor="let skills2 of skills2">
+        <app-skills [SK]="skills2"></app-skills>
+      </dl>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="internship">
+    <h3 id="internshipTitle">Internship <span id="wordInternship">Experiences</span></h3>
+    <ul class="internItems">
+      <li>Received Splunk training and gave an educational presentation to team members</li>
+      <li>Programmed RESTful API’s for SolarWinds and Foreman using Python then Bash scripts to filter results</li>
+      <li>Prepped and updated Veritas NetBackup servers firmware and appliance version</li>
+      <li>Installed SolidFire units into server rack</li>
+      <li>Introduced to storage monitoring and LUN creation via SolidFire web interface </li>
+      <li>Introduced to Linux Virtual Machine creation and automation using Ansible and Ansible Tower</li>
+      <li>Introduced to VMware creation and monitoring using Vrops </li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <h3 id="referenceTitle"><span id="wordReferences">References</span> | <span id="americanEagle">American Eagle</span></h3>
+  <div class="references">
+    <p>Tim Dorsch, Manager: 412-445-1198<br>
+      Eric Porter, Mentor: 724-636-5115<br>
+      Joe Wharton, Mentor: 727-422-5883
+    </p>
   </div>
 </div>
 
-<div class="skillSection">
-  <h2>Tech <span id="wordSkills">Skills</span></h2>
 
-</div>

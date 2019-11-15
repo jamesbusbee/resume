@@ -8,53 +8,44 @@ import { Component} from '@angular/core';
 export class AppComponent {
   title = 'resume';
   jobs = [
-        {
-          title: 'Systems Engineer Internship',
-          company: 'American Eagle',
-          date: 'June 2019-August2019'
-        }
-        ,
+    {
+      title: 'Systems Engineer Internship',
+      company: 'American Eagle',
+      date: 'June 2019-August2019'
+    },
 
-      {
-        title: 'Food Prep Chef/Dishwasher',
-        company: 'Goodfellas Drafthouse',
-        date: 'May 2016-August 2018'
-      }
+    {
+      title: 'Food Prep Chef/Dishwasher',
+      company: 'Goodfellas Drafthouse',
+      date: 'May 2016-August 2018'
+    }
   ];
-  skills = {
-    webDev:
-    [
+  skills = [
+    {
+      skillName: 'Web Development',
+      skill1: 'AJAX, Travis CI',
+      skill2: 'Angular, EC6 JS',
+      skill3: 'Bootstrap, Material',
+    },
       {
-        1: 'AJAX',
-        2: 'Angular',
-        3: 'Bootstrap',
-        4: 'PHP',
-        5: 'EC6 Javascript',
-        6: 'Travis CI'
-      }
-    ],
-    database:
-    [
+      skillName: 'Databases',
+      skill1: 'SolarWinds Query Language',
+      skill2: 'SQL',
+      skill3: 'XML'
+    }
+    ];
+  skills2 = [
+    {
+      skillName: 'Programming',
+      skill1: 'Bash Scripting',
+      skill2: 'C++',
+      skill3: 'Python RESTful API'
+    },
       {
-        1: 'Excel',
-        2: 'SQL',
-        3: 'XML'
-      }
-    ],
-    programming:
-    [
-      {
-        1: 'C++',
-        2: 'Bash Scripting',
-        3: 'Python'
-      }
-    ],
-    hardware:
-    [
-      {
-        1: 'performed server install into rack',
-        2: 'familiar with computer hardware components'
-      }
-    ]
-  };
+      skillName: 'Misc.',
+      skill1: 'performed SolidFire server install into rack',
+      skill2: 'familiar with computer hardware components',
+      skill3: 'Experience with Microsoft Office Suite'
+    }
+  ];
 }

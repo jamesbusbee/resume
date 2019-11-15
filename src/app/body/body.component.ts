@@ -8,6 +8,9 @@ import {Component, Input, OnInit} from '@angular/core';
 export class BodyComponent implements OnInit{
   @Input() AE: any;
   @Input() jobs: [];
+  @Input() SK: any;
+  @Input() skills: [];
+  @Input() skills2: [];
 
   ngOnInit() {
 
